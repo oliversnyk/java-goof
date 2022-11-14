@@ -1,0 +1,12 @@
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JAVA-ORGAPACHEAXIS-32456:
+    - '*':
+        reason: This is just a test
+        expires: 2022-12-14T13:37:54.201Z
+        created: 2022-11-14T13:37:54.203Z
+  SNYK-JAVA-ORGAPACHEAXIS-30521:
+    - '*':
+        reason: This is a test also
+        expires: 2022-12-14T13:37:54.201Z
+        created: 2022-11-14T13:37:54.203Z
